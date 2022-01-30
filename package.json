@@ -1,5 +1,27 @@
 {
   "dependencies": {
     "express": "^4.17.2"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "employee-tracker",
+  "description": "An SQL/Node JS application that allows user to view and manage the departments, roles, and employees in my company so they can organize and plan my business",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alfrugo/SQL-Employee-Tracker.git"
+  },
+  "keywords": [
+    "mysqul",
+    "nodejs"
+  ],
+  "author": "Alfredo Diez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alfrugo/SQL-Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/Alfrugo/SQL-Employee-Tracker#readme"
 }
