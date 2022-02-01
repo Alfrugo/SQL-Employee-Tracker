@@ -1,6 +1,11 @@
 {
   "dependencies": {
-    "express": "^4.17.2"
+    "console.table": "^0.10.0",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "inquirer": "^8.2.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3"
   },
   "scripts": {
     "start": "node server.js"
@@ -9,7 +14,6 @@
   "description": "An SQL/Node JS application that allows user to view and manage the departments, roles, and employees in my company so they can organize and plan my business",
   "version": "1.0.0",
   "main": "server.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Alfrugo/SQL-Employee-Tracker.git"

@@ -1,20 +1,30 @@
-// required packages
+const inquirer = require('inquirer');
 
-const inquirer = require ('inquirer')
-const mysql = require ('mysql')
-const cTable = require ('console.table')
+const cTable = require('console.table');
+// const express = require('express');
 
-require('dotenv').config(); //node js local variables
+const connection = require('./db/connection');
 
-// connection to mysql
+const startApp = require('./utils/questions')
+// const mysql = require('mysql2');
+  
+// Query database INITIAL TESTS TO MAKE SURE DB WORKS
+// connection.query('SHOW TABLES', function (err, results) {
+//   console.log(results);
+//   console.log('hello')
+// });
+// connection.query('SHOW TABLES', function (err, results) {
+//   console.log(results);
+// });
+// connection.query('SELECT * FROM employee', function (err, results1) {
+//   console.log(results1);
+// });
 
-const connection = mysql.createConnection({
-    host: 'localhost',
-    port: 3306,
-    user: 'root',
-    password: process.env.password,
-    database: 'employeeTrackerDB',
-})
 
+connection.connect((err) => {
+    if (err) throw err;
+    console.log(`Connected as id ${connection.threadId} \n`);
+    startApp();
+});
 
 
