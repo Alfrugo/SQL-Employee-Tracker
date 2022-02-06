@@ -1,4 +1,5 @@
 # SQL-Employee-Tracker
+
 An SQL/Node JS application that allows user to view and manage the departments, roles, and employees in my company so they can organize and plan my business
 
 ## User Story
@@ -50,3 +51,20 @@ WHEN I choose to add an employee
     and that employee is added to the database
 WHEN I choose to update an employee role
     THEN I am prompted to select an employee to update and their new role and this information is updated in the database
+
+
+## Application visuals
+
+<img src="https://user-images.githubusercontent.com/36056407/152698376-66a806f9-6625-4c74-a26b-17d5c5b01d74.png">
+
+<img src="https://user-images.githubusercontent.com/36056407/152698377-9657cd97-d14e-4e4e-8fb3-f890df14edc5.png"> 
+
+<img src="https://user-images.githubusercontent.com/36056407/152698378-1af17974-693c-4674-8b5b-19af5e8bed03.png"> 
+
+
+## License
+
+The license used for this project is MIT.
+
+This project was created by [Alfredo Diez](https://alfredo-diez.com)  - Please, [contact me](mailto:diez_alfredo@hotmail.com) if you have further questions. 
+
